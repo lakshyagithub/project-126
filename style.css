@@ -1,0 +1,18 @@
+body{
+    background-color: blue;
+}
+.heading{
+    margin: 0%;
+    width: 100%;
+}
+canvas{
+    border: 15px white solid;
+    animation-name: examples;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    background-color: white;
+}
+@keyframes examples {
+    from{box-shadow: 1px 1px 38px white;}
+    to{box-shadow: 1px 1px 38px #ff0000;}
+}
